@@ -1,0 +1,12 @@
+# Ignoruj pliki wideo w katalogu source/ i jego podkatalogach
+source/**/*.mts  # dla małych liter
+source/**/*.MTS  # dla dużych liter (gopro często używa MTS)
+source/**/*.mp4
+source/**/*.MP4
+source/**/*.mov
+source/**/*.MOV
+source/**/*.avi
+source/**/*.AVI
+
+# Ignoruj również katalog target/ i jego zawartość, ponieważ są to pliki wyjściowe
+target/

@@ -1,0 +1,6 @@
+numpy==2.3.0
+opencv-python==4.11.0.86
+pytz==2025.2
+pyzbar==0.1.9
+scipy==1.15.3
+timecode==1.4.1

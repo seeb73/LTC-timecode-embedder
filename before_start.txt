@@ -1,0 +1,4 @@
+sudo apt install libzbar0
+pip install opencv-python pyzbar pytz
+python main.py /home/user/footage_root /mnt/external_drive/synced_footage
+

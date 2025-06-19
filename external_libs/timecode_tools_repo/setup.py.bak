@@ -1,0 +1,23 @@
+# external_libs/timecode_tools/setup.py
+from setuptools import setup, find_packages
+
+setup(
+    name='timecode-tools-local', # Unikalna nazwa, np. z sufiksem -local
+    version='0.1.0',
+    packages=find_packages(), # Automatycznie znajdzie timecode_tools/
+    # install_requires=[
+    #     'numpy', # Jeśli ltc_encode miałoby konkretne zależności
+    #     'scipy',
+    # ],
+    author='Timecode Tools Maintainers (or Original Author)',
+    description='Lokalna kopia narzędzi timecode, w tym ltc_encode.',
+    long_description=open('README.md').read() if os.path.exists('README.md') else '',
+    long_description_content_type='text/markdown',
+    url='https://github.com/your-repo/timecode_tools_fork', # Ewentualny link do forka lub źródła
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License', # Zakładając licencję MIT
+        'Operating System :: OS Independent',
+    ],
+    python_requires='>=3.6',
+)
