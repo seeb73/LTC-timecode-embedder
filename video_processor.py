@@ -3,7 +3,7 @@
 #
 # Autor: [Twoje Imię/Nazwa Firmy - lub pozostaw puste]
 # Data: 2025-06-18
-# Wersja: 4.8 (Poprawiona logika tworzenia obiektu Timecode ze stringa HH:MM:SS:FF)
+# Wersja: 4.8.a (Poprawiona logika tworzenia obiektu Timecode ze stringa HH:MM:SS:FF)
 #
 # Opis:
 # Ten moduł zawiera klasę VideoProcessor do przetwarzania plików wideo.
@@ -38,7 +38,7 @@ import traceback
 import numbers
 
 # Import dla zapisu pliku WAV (nadal używamy scipy)
-#from scipy.io.wavfile import write as write_wav
+from scipy.io.wavfile import write as write_wav
 
 # Dodaj ścieżkę do katalogu 'external_libs'
 #current_script_dir = os.path.dirname(os.path.abspath(__file__))
