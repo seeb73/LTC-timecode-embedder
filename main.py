@@ -21,7 +21,7 @@ def main():
 
     processor = VideoProcessor(args.output_dir, args.input_dir)
     
-    video_extensions = ('.mp4', '.mov', '.avi', '.mkv') # Dodaj więcej rozszerzeń, jeśli potrzebujesz
+    video_extensions = ('.mp4', '.mov', '.avi', '.mkv', "mts") # Dodaj więcej rozszerzeń, jeśli potrzebujesz
     
     found_files = []
     print(f"Scanning for video files in: {args.input_dir}/")
