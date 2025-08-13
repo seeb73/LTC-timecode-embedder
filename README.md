@@ -1,6 +1,7 @@
 # LTC-timecode-embedder
 
 > Bo życie jest zbyt krótkie na ręczne wpisywanie timecode’ów. 😉
+> English version below.
 
 ## Spis treści
 - [Wprowadzenie](#wprowadzenie)
